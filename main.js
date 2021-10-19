@@ -12,7 +12,7 @@ function take_snapshot() {
     });
 }
 console.log("ml5 version:", ml5.version);
-classifier= ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/BJC-41PWy/model.json',model_loaded);
+classifier= ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/PWOcmx3lm/model.json',model_loaded);
 function model_loaded() {
     console.log("Model Is Loaded!");
 }
